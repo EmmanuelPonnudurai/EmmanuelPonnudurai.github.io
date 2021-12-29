@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   const mainTitleStyle: CSSProperties = {
-    paddingTop: '80px'
+    paddingTop: '50px'
   };
 
   return (
@@ -13,7 +13,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p style={mainTitleStyle}>
-          <code>I'm re-building my site. Until that time, lets watch my rotating picture (yes, its in react :D)</code>
+          <code>I'm re-building my site</code>
+        </p>
+        <p>
+          <code>Meanwhile, pls feel free to contact me on any of the following places</code>
         </p>
         {/* <a
           className="App-link"
