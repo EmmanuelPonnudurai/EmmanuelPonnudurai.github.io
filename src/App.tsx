@@ -33,7 +33,7 @@ function App() {
           <a className="App-link" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/emmanuel.ponnudurai/">Facebook</a>
         </div>
         <div>
-          <a className="App-link" target="_blank" rel="noopener noreferrer" href="linkedin.com/in/emmanuelponnudurai">LinkedIn</a>
+          <a className="App-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/emmanuelponnudurai">LinkedIn</a>
         </div>
       </header>
 
