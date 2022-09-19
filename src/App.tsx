@@ -13,14 +13,18 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p style={mainTitleStyle}>
-          <code>I'm re-building my site</code>
+          <code>
+            Contradictions do not exist. Whenever you think you are facing a
+            contradiction, check your premises. You will find that one of them
+            is wrong.- Ayn Rand
+          </code>
         </p>
-        <p>
+        {/* <p>
           <code>
             Meanwhile, pls feel free to contact me on any of the following
             places
           </code>
-        </p>
+        </p> */}
         <div>
           <a
             className="App-link"
