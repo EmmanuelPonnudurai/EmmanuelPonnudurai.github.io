@@ -4,15 +4,21 @@ import logo from "./yoga_me.png";
 import "./App.css";
 
 function App() {
-  const mainTitleStyle: CSSProperties = {
-    paddingTop: "50px",
+  const [imageSource, setImageSource] = React.useState(logo);
+  const onLuckyClick = async () => {
+    const result = await fetch("https://dog.ceo/api/breeds/image/random");
+    const data = await result.json();
+    console.log(data.message);
+    setImageSource(data.message);
   };
-
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p style={mainTitleStyle}>
+        <img src={imageSource} className="App-logo" alt="random pic" />
+        <button onClick={onLuckyClick} className="button-30">
+          I'm feeling lucky
+        </button>
+        <p>
           <code>
             Contradictions do not exist. Whenever you think you are facing a
             contradiction, check your premises. You will find that one of them
