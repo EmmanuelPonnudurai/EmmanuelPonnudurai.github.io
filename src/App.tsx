@@ -1,5 +1,4 @@
-import React, { CSSProperties } from "react";
-// import logo from './logo.svg';
+import React from "react";
 import logo from "./yoga_me.png";
 import "./App.css";
 
